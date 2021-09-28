@@ -1,0 +1,34 @@
+/*Juanjo Carrasco Rodriguez*/
+body{
+	background-color: #F5EEF8; /*Color de fondo*/
+}
+main{
+	width: 60%; /*Dimensionar y posicionar el main*/
+	float: left;
+	margin: 3% 20% 0 20%;
+}
+h2{
+	text-align: center;
+	color: #8E44AD;
+}
+div{
+	margin-bottom: 15px;
+}
+p{
+	text-align: justify; /*Estilo de todos los parrados*/
+	margin-bottom:20px;
+	font-family: monospace;
+	font-size: 15px;
+}
+
+.divestilo1{
+	
+	background-color: #D7BDE2; /*Estas dos clases son para diferenciar el color entre parrafos seguidos*/
+	padding: 10px;
+	
+}
+.divestilo2{
+	
+	background-color: #EBDEF0;
+	padding: 5px;
+}

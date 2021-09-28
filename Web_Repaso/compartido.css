@@ -1,0 +1,32 @@
+/*Juanjo Carrasco Rodriguez*/
+
+/*Este archivo es el que da estilo al menu y va en todas las paginas*/
+
+*{
+	margin:0;
+	padding:0;
+}
+nav{
+	background-color:#273746; /*Colores del menu*/
+	font-family: cursive;
+	font-size:20px;
+}
+nav ul{
+	list-style:none; /*Quitar el estilo de las viñetas*/
+	overflow: hidden;
+}
+nav ul li{
+	float:left;
+	padding-left:60px;
+	font-weight: bold;
+}
+
+nav ul li a{
+	padding: 20px;
+	text-decoration: none;
+	display: block;
+	color:#F5EEF8;
+}
+h1{
+	margin-bottom:5px;
+}

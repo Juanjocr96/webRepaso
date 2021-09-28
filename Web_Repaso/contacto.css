@@ -1,0 +1,23 @@
+/*Juanjo Carrasco Rodriguez*/
+body{
+	background-image:url('imagenes/fondo.jpg');
+	color:white;
+}
+main{
+	width: 50%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 20px;
+}
+form{
+	background-color:#0F0F0F; /*Estilo del formulario*/
+	opacity: 0.8;
+	padding: 20px;
+}
+fieldset, label, input, select, legend
+	{
+		padding:5px;
+	}
+input[type='text'], input[type='email'] { /*Ancho de las cajas de los inputs*/
+	width: 300px;
+}

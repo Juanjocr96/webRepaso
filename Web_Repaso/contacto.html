@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--Juanjo Carrasco Rodriguez-->
+<html>
+	<head>
+		<title>Inicio</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="compartido.css">
+		<link rel="stylesheet" type="text/css" href="contacto.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href='index.html'>Inicio</a></li>
+					<li><a href='historia.html'>Historia</a></li>
+					<li><a href='contacto.html'>Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<form>
+				<fieldset>
+					<legend>Datos básicos</legend>
+					<label for="nombre">Nombre</label>
+					<br />
+					<input name="nombre" type="text">
+					<br />
+					<label for="apellidos">Apellidos</label>
+					<br />
+					<input name="apellidos" type="text">
+					<br />
+					<label for="correo">Correo</label>
+					<br />
+					<input name="correo" type="email">
+					<br />
+				</fieldset>
+				<fieldset>
+					<legend>Mensaje</legend>
+					<label for="correo">Introduce tu mensaje</label>
+					<br />
+					<textarea name="mensaje" cols="40" rows="5"></textarea>
+				</fieldset>
+				<fieldset>
+					<legend>Otros</legend>
+					<label for="promo">Motivo de contacto</label>
+					<br />
+					<input type="radio" name="promo">Solicitar información
+					<br />
+					<input type="radio" name="promo">Otro<br>
+				</fieldset>
+				<fieldset>
+					<legend>Aviso Legal</legend>
+					<input type="checkbox" id="cbox1" value="first_checkbox">
+					<label>Aceptar los Términos y Condiciones.</label>
+				</fieldset>
+				<br />
+				<input type="submit" value="Enviar">
+			</form>
+		</main>
+	</body>
+</html>
